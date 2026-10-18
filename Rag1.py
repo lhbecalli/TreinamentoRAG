@@ -12,9 +12,9 @@ import anthropic
 
 chunks = [
 
-    "text: O Desportiva é o maior time de itaguaçu no futebol capixaba",
-    "text: O vasco será rebaixado a Série B em 2027",
-    "text: A loja de material em Itaguaçu, se chama Retock" 
+    "text: A empresa de tecnologia se chama loja 1",
+    "text: A loja de doces se chama loja 2",
+    "text: A loja de materiais se chama loja 3" 
 
 ]
 
