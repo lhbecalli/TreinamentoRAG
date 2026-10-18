@@ -23,7 +23,7 @@ chunks = [
 model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
 chunk_vecs = model.encode(chunks, normalize_embeddings=True)
 
-query = "Qual é o nome da loja?"
+query = "Qual é o nome da empresa ?"
 
 ## Passo 1 - Transformar a pergunta em Vetor, [0] pega esse primeiro (e único) vetor.
 q = model.encode([query], normalize_embeddings=True)[0] ## Transforma a pergunta em numeros ( faz a codificação )
